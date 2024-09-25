@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topologia de Rede em Árvore</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header-title {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .content {
+            text-align: justify;
+            color: #495057;
+            margin-top: 20px;
+        }
+        .content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #495057;
+            text-align: center;
+        }
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .content ol {
+            padding-left: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho Destacado -->
+    <header class="header">
+        <h1 class="header-title">Topologia de Rede em Árvore</h1>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <!-- Texto Explicativo -->
+        <div class="content">
+            <h2>O que é a Topologia de Rede em Árvore?</h2>
+            <p>A topologia de rede em árvore é uma combinação das topologias em estrela e barramento. Nessa configuração, os dispositivos estão conectados de forma hierárquica, formando uma estrutura que lembra uma árvore. A topologia de árvore permite que a rede seja segmentada em níveis diferentes, facilitando o gerenciamento e a organização dos dispositivos.</p>
+            <p>Ela é ideal para grandes redes corporativas, pois permite a segmentação em sub-redes menores, cada uma delas conectada a um nó superior. No entanto, a dependência de um ponto central em cada nível hierárquico pode ser uma desvantagem caso haja falhas.</p>
+            <p>Veja abaixo um passo a passo de como configurar uma topologia de rede em árvore:</p>
+            <ol>
+                <li><strong>Planejamento Estrutural:</strong> Defina a quantidade de sub-redes que serão conectadas e a hierarquia de dispositivos, desde os dispositivos finais até os servidores principais.</li>
+                <li><strong>Configuração dos Dispositivos:</strong> Conecte os dispositivos finais a switches ou hubs locais, que por sua vez estarão conectados a switches de nível superior, formando a estrutura de árvore.</li>
+                <li><strong>Configuração dos Endereços IP:</strong> Estabeleça sub-redes para cada segmento, garantindo que cada grupo de dispositivos possa se comunicar dentro de sua própria sub-rede e com o restante da rede.</li>
+                <li><strong>Testes de Comunicação:</strong> Teste a comunicação entre os dispositivos dentro de cada sub-rede e entre as diferentes sub-redes para garantir que não haja problemas de conectividade.</li>
+                <li><strong>Segurança e Controle de Acesso:</strong> Implemente políticas de segurança para controlar o acesso entre sub-redes e proteja os nós centrais contra ataques.</li>
+                <li><strong>Monitoramento e Manutenção:</strong> Monitore a rede continuamente e faça a manutenção necessária para evitar congestionamentos e falhas nos pontos centrais da topologia.</li>
+            </ol>
+        </div>
+
+        <!-- Imagem Ilustrativa -->
+        <div class="image-container">
+            <img src="arvore.jpg" class="img-fluid rounded" alt="Topologia de Rede em Árvore">
+            <p class="mt-2 text-muted">Diagrama ilustrativo de uma topologia de rede em árvore.</p>
+        </div>
+
+        <!-- Link para Vídeo -->
+        <div class="content text-center">
+            <h2>Veja o Vídeo Explicativo</h2>
+            <p>Para mais detalhes, veja o vídeo explicativo abaixo sobre como configurar uma topologia de rede em árvore:</p>
+            <a href="https://www.youtube.com/watch?v=-nPoRGU8x7g" target="_blank" class="btn btn-primary">Assistir ao Vídeo</a>
+        </div>
+    </div>
+
+    <!-- Rodapé Destacado -->
+    <footer class="footer">
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:contato@empresa.com" style="color: #ffc107;">contato@empresa.com</a></p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

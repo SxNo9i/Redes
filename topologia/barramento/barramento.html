@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topologia de Rede em Barramento</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header-title {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .content {
+            text-align: justify;
+            color: #495057;
+            margin-top: 20px;
+        }
+        .content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #495057;
+            text-align: center;
+        }
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .content ol {
+            padding-left: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho Destacado -->
+    <header class="header">
+        <h1 class="header-title">Topologia de Rede em Barramento</h1>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <!-- Texto Explicativo -->
+        <div class="content">
+            <h2>O que é a Topologia de Rede em Barramento?</h2>
+            <p>A topologia de rede em barramento é uma configuração na qual todos os dispositivos da rede estão conectados a um único cabo central, chamado de "barramento". Esse cabo central atua como um backbone, e todas as informações que trafegam pela rede passam por ele. Cada dispositivo se conecta ao barramento através de um conector especial e compete pelo uso do canal de comunicação.</p>
+            <p>Essa topologia é uma das mais antigas e foi amplamente utilizada em redes de computadores no passado, devido à sua simplicidade e baixo custo de implementação. No entanto, possui algumas limitações, como a dificuldade de detectar falhas e a perda de desempenho à medida que mais dispositivos são adicionados à rede.</p>
+            <p>Veja abaixo um passo a passo de como implementar uma topologia de rede em barramento:</p>
+            <ol>
+                <li><strong>Planejamento da Rede:</strong> Determine o número de dispositivos que serão conectados ao barramento e o comprimento do cabo necessário para cobrir todos os pontos.</li>
+                <li><strong>Instalação do Barramento:</strong> Instale o cabo central (barramento) e certifique-se de que ele possa alcançar todos os pontos onde os dispositivos estarão localizados.</li>
+                <li><strong>Conexão dos Dispositivos:</strong> Conecte cada dispositivo ao barramento utilizando conectores apropriados, como BNC, e certifique-se de que cada conexão esteja firme e segura.</li>
+                <li><strong>Terminação do Barramento:</strong> Em cada extremidade do barramento, instale um terminador para evitar a reflexão dos sinais, que pode causar interferências na comunicação.</li>
+                <li><strong>Configuração dos Endereços IP:</strong> Atribua endereços IP únicos a cada dispositivo para garantir a comunicação dentro da rede.</li>
+                <li><strong>Teste de Conectividade:</strong> Verifique a conectividade entre todos os dispositivos conectados ao barramento, garantindo que a comunicação esteja funcionando corretamente.</li>
+            </ol>
+        </div>
+
+        <!-- Imagem Ilustrativa -->
+        <div class="image-container">
+            <img src="baarramento.jpg" class="img-fluid rounded" alt="Topologia de Rede em Barramento">
+            <p class="mt-2 text-muted">Diagrama ilustrativo de uma topologia de rede em barramento.</p>
+        </div>
+
+        <!-- Link para Vídeo -->
+        <div class="content text-center">
+            <h2>Veja o Vídeo Explicativo</h2>
+            <p>Para mais detalhes, veja o vídeo explicativo abaixo sobre como funciona uma topologia de rede em barramento:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5YgQZv-cyro?si=8Q2DR5BfEHSeol1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Rodapé Destacado -->
+    <footer class="footer">
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:contato@empresa.com" style="color: #ffc107;">contato@empresa.com</a></p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
