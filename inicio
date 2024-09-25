@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lista de Colunas</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #673ab7;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 40px 0;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #673ab7;
+            margin-bottom: 40px;
+        }
+
+        .grid-item {
+            background-color: white;
+            border: 2px solid #673ab7;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+            background-color: #d1c4e9;
+        }
+
+        .grid-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .grid-item p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Systemize</h1>
+    </header>
+
+    <div class="container">
+        <h2>Explore Nossos Produtos e Serviços</h2>
+        <div class="row justify-content-center">
+            <!-- Gerando as 12 colunas uma embaixo da outra -->
+            <div class="col-12">
+                <div class="grid-item">
+                    <a class="navbar-brand" href="topologia/topologia.html">
+                    <h3>Topologia</a></h3>
+                    <p>é a forma como os dispositivos de uma rede de computadores são estruturados e interligados, podendo ser descrita de forma física ou lógica.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="grid-item">
+                    <a class="navbar-brand" href="projetos/projetos.html">
+                    <h3>Projetos</a></h3>
+                    <p>Um projeto de rede de computadores é a interligação de vários sistemas para a troca de dados, como arquivos, voz e vídeo. Para que uma rede seja eficaz, é preciso projetá-la e implementá-la de acordo com uma série de etapas.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="grid-item">
+                    <a class="navbar-brand" href="segurança/segurança.html">
+                    <h3>Segurança</a></h3>
+                    <p>é um conjunto de medidas, ferramentas e processos que visam proteger os sistemas e hardwares de uma empresa contra ataques cibernéticos e violações de dados.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="grid-item">
+                    <a class="navbar-brand" href="cabeamento/cabeamento.html">
+                    <h3>Cabeamento</a></h3>
+                    <p>O cabeamento de rede é um conjunto de cabos que conecta dispositivos e equipamentos a uma rede, permitindo a transmissão de dados e a conexão à internet.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="grid-item">
+                    <a class="navbar-brand" href="servidores/servidores.html">
+                    <h3>Servidores</a></h3>
+                    <p>Servidores de rede são computadores ou sistemas que gerenciam recursos e fornecem serviços para outros computadores conectados a uma rede. Eles funcionam como o coração da rede, processando solicitações de dados e comandos de outros dispositivos. 
+                    </p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="grid-item">
+                    <h3>Orçamento</h3>
+                    <p>Orçamento de serviços.</p>
+                </div>
+            </div>
+    <footer>
+        <p>&copy; 2024 Sua Empresa - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
